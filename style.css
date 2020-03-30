@@ -697,7 +697,7 @@ position:absolute;
 .search-box #search-input {
     padding: 3px;
     margin: 1px 5px 0 2px;
-    height: 30px; 
+    height: 30px;
     border: 1px solid #98A5B1;
     border-radius: 3px;
     font-size: 14pt;
@@ -1354,3 +1354,22 @@ margin-right: 4px;
 }
 
   /* additions for adding new feeds and font-awesome */
+@media (prefers-color-scheme: dark) {
+    body { background: #333; color: #FFF; }
+    .whisper { background: #333; color:#FFF; }
+    #show-more-row, #viewer-bottom-links {background:#666; border:none;}
+    .load-more-message, #viewer-bottom-links #load-more-items {color:#99F;}
+
+    .entry-row {border-bottom: 1px solid #666;}
+    .entry-container {border: 2px solid #333;}
+    .expanded .entry-top-bar {background:#666;}
+    .expanded .entry-top-bar .link {color:#CCF;}
+    .expanded .entry-container .entry-header-body,
+    .entry-header-body, .entry, .entry-footer {background:#333;}
+
+    .read .entry-container { border-color: #444; background: #444; }
+    .read .entry-header-body {background:#444; }
+
+    .item-title, .item-title-collapsed {color:#FFF;}
+    a, a:visited, .link {color:#CCF;}
+}
