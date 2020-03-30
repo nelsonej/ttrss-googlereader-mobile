@@ -1354,9 +1354,9 @@ margin-right: 4px;
 }
 
   /* additions for adding new feeds and font-awesome */
-@media (prefers-color-scheme: dark) {
     body { background: #333; color: #FFF; }
     .whisper { background: #333; color:#FFF; }
+    .sub-item {color:#FFF;}
     #show-more-row, #viewer-bottom-links {background:#666; border:none;}
     .load-more-message, #viewer-bottom-links #load-more-items {color:#99F;}
 
@@ -1372,4 +1372,8 @@ margin-right: 4px;
 
     .item-title, .item-title-collapsed {color:#FFF;}
     a, a:visited, .link {color:#CCF;}
+
+    .starBorder {color:#666;}
+    .starNotActive {color:#333;}
+@media (prefers-color-scheme: dark) {
 }
