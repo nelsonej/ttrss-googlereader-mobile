@@ -1373,6 +1373,7 @@ margin-right: 4px;
 
     .item-title, .item-title-collapsed {color:#FFF;}
     a, a:visited, .link {color:#CCF;}
+    h2, strong {color:#FFF;}
 
     .starBorder {color:#666;}
     .starNotActive {color:#333;}
