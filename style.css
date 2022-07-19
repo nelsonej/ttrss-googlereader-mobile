@@ -1362,6 +1362,7 @@ margin-right: 4px;
     .load-more-message, #viewer-bottom-links #load-more-items {color:#99F;}
 
     .entry-row {border-bottom: 1px solid #666;}
+    .sub-row {border-bottom: 1px solid #666;}
     .entry-container {border: 2px solid #333;}
     .expanded .entry-top-bar {background:#666;}
     .expanded .entry-top-bar .link {color:#CCF;}
