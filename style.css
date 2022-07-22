@@ -1355,27 +1355,54 @@ margin-right: 4px;
 
   /* additions for adding new feeds and font-awesome */
 @media (prefers-color-scheme: dark) {
-    body { background: #333; color: #FFF; }
-    .whisper { background: #333; color:#FFF; }
+    body { background: #222; color: #FFF; }
+    .nav-bar {background: #333; border-top: 2px solid #444; border-bottom: 2px solid #444}
+    .gp4 .nav-bar,
+    #entries-footer.nav-bar { border-top: 2px solid #444 }
+    .whisper { background: #222; color:#FFF; }
     .sub-item {color:#FFF;}
-    #show-more-row, #viewer-bottom-links {background:#666; border:none;}
-    .load-more-message, #viewer-bottom-links #load-more-items {color:#99F;}
+    #show-more-row, #viewer-bottom-links {background:#222; border:none;}
+    .load-more-message, #viewer-bottom-links #load-more-items {color:#b87d2c;}
+    .loading, #loading-area-container p {color:#b87d2c;}
 
-    .entry-row {border-bottom: 1px solid #666;}
-    .sub-row {border-bottom: 1px solid #666;}
-    .entry-container {border: 2px solid #333;}
-    .expanded .entry-top-bar {background:#666;}
-    .expanded .entry-top-bar .link {color:#CCF;}
+    .entry-row {border-bottom: 1px solid #333;}
+    .sub-row {border-bottom: 1px solid #333;}
+    .entry-container {border: 2px solid #222;}
+    .expanded .entry-top-bar {background:#333;}
+    .expanded .entry-top-bar .link {color:#ccc;}
     .expanded .entry-container .entry-header-body,
-    .entry-header-body, .entry, .entry-footer {background:#333;}
+    .entry-header-body, .entry, .entry-footer {background:#222;}
 
     .read .entry-container { border-color: #444; background: #444; }
     .read .entry-header-body {background:#444; }
 
-    .item-title, .item-title-collapsed {color:#FFF;}
-    a, a:visited, .link {color:#CCF;}
-    h2, strong {color:#FFF;}
+    .item-title, .item-title-collapsed {color:#fff;}
+    a, a:visited, .link {color:#CCC;}
+    h2, strong {color:#CCC;}
 
-    .starBorder {color:#666;}
-    .starNotActive {color:#333;}
+    .starBorder {color:#333;}
+    .starNotActive {color:#222;}
+    .nav-table-middle {color: #fff; text-shadow: 0 0 0;}
+    .m-button {
+        border: solid 1px #CCC;
+        background-color: #222;
+        color: #CCC;
+        text-shadow: 0 0px 0;
+        box-shadow: 0 0px 0; 
+    }
+    .m-button-pressed {
+        border-color: #222;
+        background-color: #ccc;
+        color: #222;
+        text-shadow: 0 0px 0;
+    }
+    .fa-rss-square {color: #b87d2c;}
+    .g2tt-menu {
+        background-color: #333;
+        border: solid 1px #CCC;
+        box-shadow: 0 0 0;
+    }
+    .g2tt-menuitem { color: #CCC; }
+    .g2tt-menuitem-checkbox i{ color: #b87d2c; }
+    .g2tt-menuseparator { border-top: 1px solid #ccc }
 }
