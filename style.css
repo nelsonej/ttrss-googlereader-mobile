@@ -1378,7 +1378,7 @@ margin-right: 4px;
 
     .item-title, .item-title-collapsed {color:#fff;}
     a, a:visited, .link {color:#CCC;}
-    h2, strong {color:#CCC;}
+    h2, strong {color:#fff;}
 
     .starBorder {color:#333;}
     .starNotActive {color:#222;}
@@ -1405,4 +1405,28 @@ margin-right: 4px;
     .g2tt-menuitem { color: #CCC; }
     .g2tt-menuitem-checkbox i{ color: #b87d2c; }
     .g2tt-menuseparator { border-top: 1px solid #ccc }
+
+    .login {
+      background: #3333;
+    }
+
+    .g-button.selected,
+    .g-button:active,.g-button:focus:hover,
+    .g-button-submit:active,.g-button-submit:focus:hover {
+      border: 1px solid #333;
+      color: #333;
+      text-shadow: revert;
+      background-color: #ccc;
+      background-image: revert;
+    }
+    .g-button:visited {
+      color: #666;
+    }
+    .g-button,.g-button:hover,.g-button-submit, g-button-submit:hover {
+      border: 1px solid #ccc;
+      color: #fff;
+      text-shadow: revert;
+      background-color: #333;
+      background-image: revert;
+    }
 }
