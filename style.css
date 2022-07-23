@@ -1387,20 +1387,20 @@ margin-right: 4px;
         border: solid 1px #CCC;
         background-color: #222;
         color: #CCC;
-        text-shadow: 0 0px 0;
-        box-shadow: 0 0px 0; 
+        text-shadow: revert;
+        box-shadow: revert; 
     }
     .m-button-pressed {
         border-color: #222;
         background-color: #ccc;
         color: #222;
-        text-shadow: 0 0px 0;
+        text-shadow: revert;
     }
     .fa-rss-square {color: #b87d2c;}
     .g2tt-menu {
         background-color: #333;
         border: solid 1px #CCC;
-        box-shadow: 0 0 0;
+        box-shadow: revert;
     }
     .g2tt-menuitem { color: #CCC; }
     .g2tt-menuitem-checkbox i{ color: #b87d2c; }
@@ -1428,5 +1428,37 @@ margin-right: 4px;
       text-shadow: revert;
       background-color: #333;
       background-image: revert;
+    }
+
+    .dialog-nav-bar { 
+      background-color:#333;
+    }
+    .ui-widget-header {
+      position: relative;
+      border-top: 1px solid #ccc;
+      padding: 4px;
+      background: revert;
+      background-color: #222;
+      border-bottom: solid 1px #222;
+      z-index: 3;
+    }
+    .ui-widget-content {
+      border: 1px solid #ccc;
+    }
+    
+    .ui-dialog-buttonpane {
+      padding: 4px;
+    }
+    .ui-button {
+      color: #ccc;
+      border: 1px solid #ccc;
+      background-color: #333;
+      margin: 2px;
+    }
+    .ui-button.selected {
+      color: #333;
+      border: 1px solid #333;
+      background-color: #ccc;
+      margin: 2px;
     }
 }
